@@ -1,13 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/bae5c522cf.js" crossorigin="anonymous" defer></script>
+  <title>Document</title>
+
+</head>
+<body>
+  <div class="header-and-main-container">
+    <header>
+    <i></i>
+    <div>
+      <button class="hamburgermenu">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+    </div>
+    <nav></nav>
+  </header>
+  <main>
+      <h1>Sofia Olsson</h1>
+      <h2 class="frontend">Frontend developer student</h2>
+    <div class="flex-firstpage">
+      <section class="firstpage-container">
+          <img src="/Img/Sofia_Olsson.jpg" alt="">
+          <div class="more-about-me-container">
+            <p class="more-about-me-text">Mer om mig</p>
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+      </section>
+      <section class="about-me-container">
+        <h2>Vem är jag?</h2>
+        <p>Jag är en tjej på 23 år från Alingsås som studerar till frontend utvecklare. 
+            Jag söker LIA för veckorna... Det jag skulle vilja få ut av min LIA är framförallt
+            att få se hur arbetet fungerar i verkligheten och få testa på så mycket olika saker
+            som möjligt. Hittills har jag varit mest intresserad av javaSript, css och html delen. 
+            Utöver studierna brinner jag för hund, fotboll och att vara ute i naturen. 
+        </p>
+      </section>
+    </div>
+    <section class="education-container">
+      <div>
+        <article class="skills-card">
+          <h2>Kunskaper</h2>
+          <div class="skills-ul-container">
+            <ul class="skills-dots">
+              <li><span></span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+            </ul>
+            <ul class="skills-text">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Sass</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>Tester</li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+      </article>
+      </div>
+      <div>
+        <h2>Utbildning</h2>
+        <div class="education-wrapper">
+          <article class="education-1">
+            <h3>Frontend developer</h3>
+            <p>2022-2024</p>
+            <p>Medieinstitutet (Stockholm)</p>
+          </article>
+          <article class="education-2">
+            <h3>Naturvetenskap</h3>
+            <p>2016-2019</p>
+            <p>Alströmergymnasiet</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="projects-container">
+      <h2>Mina projekt</h2>
+      <i class="fa-solid fa-arrow-left"></i>
+      <div class="project-card">
+        <img src="/Img/Weather-app.png" alt="">
+      </div>
+      <i class="fa-solid fa-arrow-right"></i>
+    </section>
+    <section class="projects-container-desktop"></section>
+  </main>
+  </div>
+  
+  <footer>
+    <section class="contact-container">
+      <h2>Kontakt</h2>
+      <div class="contact-text-wrapper">
+        <p>Epost: sofia00olsson@gmail.com</p>
+        <p>Telnr: 0768656290</p>
+      </div>
+      <div class="contact-icons-wrapper">
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </section>
+  </footer>
+  <script src="/main.ts" type="module"></script>
+</body>
 </html>
