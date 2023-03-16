@@ -1,0 +1,93 @@
+@use 'variables' as var;
+h1{
+        margin-top: 50px;
+        line-height: 60px;
+        height: 50px;
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+        font-family: var.$fontRubiks;
+        font-size: 2rem;
+        color: rgb(216, 211, 211);
+    }
+
+.frontend{
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: var.$fontRubiks;
+    font-size: 1.3rem;
+    color: rgb(216, 211, 211);
+}
+
+.firstpage-container{
+    height: 600px;
+    margin: 0;
+    margin-top: 50px;
+    color: rgb(216, 211, 211);
+
+    img{
+        margin: 0 auto;
+        max-width: 250px;
+        display: block;
+        border-radius: 10px;
+    }
+
+    .more-about-me-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+       .more-about-me-text{
+            height: 50px;
+            width: 130px;
+            margin-top: 50px;
+            font-family: var.$fontText;
+            font-size: 1.4rem;
+        } 
+
+        .fa-arrow-down{
+            
+          margin-top: 10px;
+            
+            font-size: 3rem;
+        }
+    }
+}
+
+@media screen and (min-width: 500px){
+  h1{    
+        line-height: 100px;
+        width: 300px;
+        font-size: 3rem;
+    }
+    
+    .frontend{
+        line-height: 70px;
+        width: 350px;
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }  
+    .firstpage-container{
+    
+        img{
+            margin-top: 20px;
+            max-width: 280px;
+        }
+    
+        .more-about-me-container{
+        
+           .more-about-me-text{
+                margin-top: 40px;
+                font-size: 1.6rem;
+                margin-right: 15px;
+            } 
+    
+            .fa-arrow-down{
+              margin-top: 5px;
+            }
+        }
+    }
+}

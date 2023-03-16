@@ -1,0 +1,81 @@
+@use 'variables' as var;
+
+.projects-container{
+    min-height: 200px;
+    position: relative;
+    max-width: 310px;
+    margin: 0 auto;
+    color: rgb(216, 211, 211);
+
+    h2{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-family: var.$fontRubiks;
+        font-size: 2rem;
+    }
+
+    .fa-arrow-left{
+        position: relative;
+        top: 120px;
+        left: 2px;
+        height: 100px;
+        width: 100px;
+        font-size: 3rem;
+    }
+
+    .fa-arrow-right{
+        position: relative;
+        top: -150px;
+        left: 255px;
+        height: 100px;
+        width: 100px;
+        font-size: 3rem;
+    }
+
+    .project-card{
+        min-height: 250px;
+        width: 200px;
+        margin-top: -80px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 170px;
+            border-radius: 10px;
+        }
+    }
+}
+
+@media screen and (min-width: 500px){
+    .projects-container{
+    
+        h2{
+            margin-top: 50px;
+        }
+    
+        .fa-arrow-left{
+            top: 150px;
+            left: -60px;
+            font-size: 4rem;
+        }
+    
+        .fa-arrow-right{
+            top: -210px;
+            left: 320px;
+            font-size: 4rem;
+        }
+    
+        .project-card{
+    
+            img{
+                width: 250px;
+            }
+        }
+    }
+}
